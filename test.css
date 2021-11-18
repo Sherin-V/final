@@ -5,6 +5,19 @@
     font-family: 'poppins',sans-serif;
 }
 
+h1 {
+    font-size: 25px;
+    line-height: 1;
+    margin-bottom: 4rem;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+
 input[type="radio"]{
 
     border: 0px;
@@ -85,8 +98,15 @@ p{
 margin: -82px auto 2rem auto;
 padding: 0.5rem;
 }
-
-
+#description
+{
+    padding: 2.5rem;
+    margin-left: -33px;
+}
+.column-image
+{
+    margin-top: -42px;
+}
 .r1{
     
     border: 2px solid #f91a1a;
@@ -120,7 +140,7 @@ input:checked+label
 {
     p{
         margin: -65px auto 1rem auto;
-        padding: 0.5rem;
+        padding: 1.7rem;
         }
         .r1{
             height: 50px;
@@ -141,7 +161,19 @@ input:checked+label
             width: 100%;
             margin-top: 70px;
         }
+        #title{
+            font-size: 3rem;
+        }
 
+        img {
+            max-width: 54%;
+            height: auto;
+            display: block;
+          }
+          
+        
+
+   
          
         
 }
