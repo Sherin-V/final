@@ -9,6 +9,7 @@ h1 {
     font-size: 25px;
     line-height: 1;
     margin-bottom: 4rem;
+    font-family: er;
   }
   
   img {
@@ -102,6 +103,7 @@ padding: 0.5rem;
 {
     padding: 2.5rem;
     margin-left: -33px;
+    font-family: sh;
 }
 .column-image
 {
@@ -190,4 +192,19 @@ input:checked+label
     cursor: pointer;
   }
   
-  
+  @font-face
+{
+	font-family: er;
+	src: url(
+		RocknRollOne-Regular.ttf
+	);
+	
+}
+
+@font-face
+{
+	font-family: sh;
+	src: url(
+		Merienda-Regular.ttf
+	);
+}
