@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./test.css">
-    <link rel="stylesheet" href="./style1.css">
-</head>
+    </head>
 <body>
     <section>    
         <div class="box">
@@ -407,7 +406,7 @@ id="None"
 </section>
 
    
-<script src="./script1.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -421,13 +420,13 @@ id="None"
           method:"post",
           success:function (response){
               
-             alert('submited Success') 
-             document.getElementsByClassName("success").innerHTML='shucch'
+             window.location.reload()
+             window.location.href='./submit/index.html'
               
           },
           error:function (err){
               alert("Something Error")
-              document.getElementsByClassName("success").innerHTML='err'
+              
 
           }
       })
