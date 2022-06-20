@@ -434,6 +434,7 @@ id="None"
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script>
+
         
   $("#submit-form").submit((e)=>{
       e.preventDefault()
@@ -442,7 +443,8 @@ id="None"
           data:$("#submit-form").serialize(),
           method:"post",
           success:function (response){
-              
+              console.log(data)
+
              window.location.reload()
              window.location.href='./submit/index.html'
               
